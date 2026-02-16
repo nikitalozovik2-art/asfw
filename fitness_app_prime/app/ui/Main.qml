@@ -56,7 +56,7 @@ ApplicationWindow {
                 onOpenTraining: win.pageIndex = 1
                 onOpenNutrition: win.pageIndex = 2
                 onOpenProgress: win.pageIndex = 3
-                onOpenProfile:  win.pageIndex = 4
+                onOpenProfile: win.pageIndex = 4
             }
 
             P.TrainingPage { }
@@ -65,23 +65,14 @@ ApplicationWindow {
             P.ProfilePage { }
         }
 
-        // ✅ Dock через Loader: ошибки Dock больше не валят Main.qml
-        Loader {
-            id: dockLoader
+        C.Dock {
+            id: dock
             anchors.left: parent.left
             anchors.right: parent.right
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 18
-            active: true
-            sourceComponent: dockComponent
-        }
-
-        Component {
-            id: dockComponent
-            C.Dock {
-                currentIndex: win.pageIndex
-                onNavigate: function(idx) { win.pageIndex = idx }
-            }
+            currentIndex: win.pageIndex
+            onNavigate: function(idx) { win.pageIndex = idx }
         }
     }
 }
