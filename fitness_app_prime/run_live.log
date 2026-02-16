@@ -1,0 +1,827 @@
+=== RUN 2026-02-13 20:33:46 ===
+qt.core.plugin.factoryloader: checking directory path "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/platforms" ...
+qt.core.plugin.factoryloader: looking at "qdirect2d.dll"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/platforms/qdirect2d.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "direct2d"
+        ]
+    },
+    "archlevel": 1,
+    "className": "QWindowsDirect2DIntegrationPlugin",
+    "debug": false,
+    "version": 395776
+}
+
+
+qt.core.plugin.factoryloader: Got keys from plugin meta data QList("direct2d")
+qt.core.plugin.factoryloader: looking at "qminimal.dll"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/platforms/qminimal.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "minimal"
+        ]
+    },
+    "archlevel": 0,
+    "className": "QMinimalIntegrationPlugin",
+    "debug": false,
+    "version": 395776
+}
+
+
+qt.core.plugin.factoryloader: Got keys from plugin meta data QList("minimal")
+qt.core.plugin.factoryloader: looking at "qoffscreen.dll"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/platforms/qoffscreen.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "offscreen"
+        ]
+    },
+    "archlevel": 0,
+    "className": "QOffscreenIntegrationPlugin",
+    "debug": false,
+    "version": 395776
+}
+
+
+qt.core.plugin.factoryloader: Got keys from plugin meta data QList("offscreen")
+qt.core.plugin.factoryloader: looking at "qwindows.dll"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/platforms/qwindows.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "windows"
+        ]
+    },
+    "archlevel": 0,
+    "className": "QWindowsIntegrationPlugin",
+    "debug": false,
+    "version": 395776
+}
+
+
+qt.core.plugin.factoryloader: Got keys from plugin meta data QList("windows")
+qt.core.plugin.factoryloader: checking directory path "C:/Users/onesh/AppData/Local/Programs/Python/Python312/platforms" ...
+qt.core.library: "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/platforms/qwindows.dll" loaded library
+qt.core.plugin.factoryloader: checking directory path "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/platformthemes" ...
+qt.core.plugin.factoryloader: checking directory path "C:/Users/onesh/AppData/Local/Programs/Python/Python312/platformthemes" ...
+qt.qml.import: addImportPath: "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml"
+qt.qml.import: addImportPath: "qrc:/qt/qml"
+qt.qml.import: addImportPath: "qrc:/qt-project.org/imports"
+qt.qml.import: addImportPath: "C:/Users/onesh/AppData/Local/Programs/Python/Python312"
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QtQuick" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/qmldir"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/qtquick2plugin.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archlevel": 0,
+    "className": "QtQuick2Plugin",
+    "debug": false,
+    "uri": [
+        "QtQuick"
+    ],
+    "version": 395776
+}
+
+
+qt.core.library: "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/qtquick2plugin.dll" loaded library
+qt.qml.import: loading dependent import "QtQml" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QtQml" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml loaded ":/qt-project.org/imports/QtQml/qmldir"
+qt.qml.import: resolvePlugin Could not resolve dynamic plugin with base name "qmlplugin" in ":/qt-project.org/imports/QtQml"  file does not exist
+qt.qml.import: loading dependent import "QML" version 1.0 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QML" version "1.0" as ""
+qt.qml.import: loading dependent import "QtQml.Models" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QtQml.Models" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml loaded ":/qt-project.org/imports/QtQml/Models/qmldir"
+qt.qml.import: resolvePlugin Could not resolve dynamic plugin with base name "modelsplugin" in ":/qt-project.org/imports/QtQml/Models"  file does not exist
+qt.qml.import: locateLocalQmldir: QtQml.Models module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQml/Models/qmldir"
+qt.qml.import: loading dependent import "QtQml.WorkerScript" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QtQml.WorkerScript" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml loaded ":/qt-project.org/imports/QtQml/WorkerScript/qmldir"
+qt.qml.import: resolvePlugin Could not resolve dynamic plugin with base name "workerscriptplugin" in ":/qt-project.org/imports/QtQml/WorkerScript"  file does not exist
+qt.qml.import: locateLocalQmldir: QtQml.WorkerScript module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQml/WorkerScript/qmldir"
+qt.qml.import: locateLocalQmldir: QtQml module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQml/qmldir"
+qt.qml.import: locateLocalQmldir: QtQuick module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/qmldir"
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QtQuick.Controls" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/qmldir"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/qtquickcontrols2plugin.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archlevel": 0,
+    "className": "QtQuickControls2Plugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.Controls"
+    ],
+    "version": 395776
+}
+
+
+qt.core.library: "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/qtquickcontrols2plugin.dll" loaded library
+qt.quick.controls.qtquickcontrols2plugin: registerTypes() called with uri QtQuick.Controls
+qt.quick.controls.style: resolving style
+qt.quick.controls.style: done resolving:
+    style="Basic"
+    custom=false
+    resolved=true
+    fallbackStyle=""
+    fallbackMethod="QT_QUICK_CONTROLS_FALLBACK_STYLE"
+    configFilePath=":/qtquickcontrols2.conf"
+qt.quick.controls.qtquickcontrols2plugin: style: "Basic" effective style: "Basic" fallback style: "" effective fallback style: "Basic"
+qt.quick.controls.qtquickcontrols2plugin: calling qmlRegisterModuleImport() to register primary style with uri "QtQuick.Controls" moduleMajor -2 import "QtQuick.Controls.Basic" importMajor -2
+qt.qml.import: loading dependent import "QtQuick.Controls.Basic" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QtQuick.Controls.Basic" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/qmldir"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/qtquickcontrols2basicstyleplugin.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archlevel": 0,
+    "className": "QtQuickControls2BasicStylePlugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.Controls.Basic"
+    ],
+    "version": 395776
+}
+
+
+qt.core.library: "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/qtquickcontrols2basicstyleplugin.dll" loaded library
+qt.quick.controls.styleplugin: registerTypes called with uri QtQuick.Controls.Basic; plugin name is "Basic"
+qt.quick.controls.styleplugin: creating theme
+qt.quick.controls.styleplugin: creating QQuickTheme instance to be initialized by style-specific theme of "Basic"
+qt.quick.controls.styleplugin: this style plugin belongs to the current style "Basic"; calling initializeTheme()
+qt.qml.import: locateLocalQmldir: QtQuick.Controls.Basic module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/qmldir"
+qt.qml.import: locateLocalQmldir: QtQuick.Controls module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/qmldir"
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QtQuick.Layouts" version "1.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Layouts/qmldir"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Layouts/qquicklayoutsplugin.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlEngineExtensionInterface",
+    "archlevel": 0,
+    "className": "QtQuickLayoutsPlugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.Layouts"
+    ],
+    "version": 395776
+}
+
+
+qt.core.library: "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Layouts/qquicklayoutsplugin.dll" loaded library
+qt.qml.import: locateLocalQmldir: QtQuick.Layouts module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Layouts/qmldir"
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QML" version "1.0" as "QML"
+qt.qml.import: addImplicitImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml
+qt.qml.import: addFileImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "." version "(latest)" as ""
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "NumberAnimation"  =>  "QQuickNumberAnimation"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "MouseArea"  =>  "QQuickMouseArea"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "ColumnLayout"  =>  "QQuickColumnLayout"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Behavior"  =>  "QQuickBehavior"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "HoverHandler"  =>  "QQuickHoverHandler"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Column"  =>  "QQuickColumn"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Item"  =>  "QQuickItem"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Layout"  =>  "QQuickLayout"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Row"  =>  "QQuickRow"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "QML.Component"  =>  "QQmlComponent"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Rectangle"  =>  "QQuickRectangle"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "RowLayout"  =>  "QQuickRowLayout"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Text"  =>  "QQuickText"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Repeater"  =>  "QQuickRepeater"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Component"  =>  "QQmlComponent"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "Loader"  =>  "QQuickLoader"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/Main.qml "StackView"  =>  ""   QUrl("qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml")  TYPE/URL
+qt.qml.import: addLibraryImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "QtQuick" version "(latest)" as ""
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml loaded ":/qt-project.org/imports/QtQuick/qmldir"
+qt.qml.import: loading dependent import "QtQml" version 6.10 as ""
+qt.qml.import: addLibraryImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "QtQml" version "6.10" as ""
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml loaded ":/qt-project.org/imports/QtQml/qmldir"
+qt.qml.import: loading dependent import "QML" version 1.0 as ""
+qt.qml.import: addLibraryImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "QML" version "1.0" as ""
+qt.qml.import: loading dependent import "QtQml.Models" version 6.10 as ""
+qt.qml.import: addLibraryImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "QtQml.Models" version "6.10" as ""
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml loaded ":/qt-project.org/imports/QtQml/Models/qmldir"
+qt.qml.import: locateLocalQmldir: QtQml.Models module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQml/Models/qmldir"
+qt.qml.import: loading dependent import "QtQml.WorkerScript" version 6.10 as ""
+qt.qml.import: addLibraryImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "QtQml.WorkerScript" version "6.10" as ""
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml loaded ":/qt-project.org/imports/QtQml/WorkerScript/qmldir"
+qt.qml.import: locateLocalQmldir: QtQml.WorkerScript module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQml/WorkerScript/qmldir"
+qt.qml.import: locateLocalQmldir: QtQml module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQml/qmldir"
+qt.qml.import: locateLocalQmldir: QtQuick module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/qmldir"
+qt.qml.import: addLibraryImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "QtQuick.Templates" version "(latest)" as "T"
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml loaded ":/qt-project.org/imports/QtQuick/Templates/qmldir"
+qt.qml.import: resolvePlugin Could not resolve dynamic plugin with base name "qtquicktemplates2plugin" in ":/qt-project.org/imports/QtQuick/Templates"  file does not exist
+qt.qml.import: addLibraryImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "QtQuick.Templates" version "(latest)" as "T"
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Templates/qmldir"
+qt.core.plugin.loader: Found metadata in lib C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Templates/qtquicktemplates2plugin.dll, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archlevel": 0,
+    "className": "QtQuickTemplates2Plugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.Templates"
+    ],
+    "version": 395776
+}
+
+
+qt.core.library: "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Templates/qtquicktemplates2plugin.dll" loaded library
+qt.qml.import: locateLocalQmldir: QtQuick.Templates module's qmldir found at "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Templates/qmldir"
+qt.qml.import: addImplicitImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml
+qt.qml.import: addFileImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "." version "(latest)" as ""
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml loaded ":/qt-project.org/imports/QtQuick/Controls/Basic/qmldir"
+qt.qml.import: resolveType: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "Calendar"  =>  "Calendar"   QUrl("qrc:/qt-project.org/imports/QtQuick/Controls/Basic/Calendar.qml")  TYPE/URL-SINGLETON
+qt.qml.import: addLibraryImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/Calendar.qml "QtQuick.Templates" version "(latest)" as "T"
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/Calendar.qml loaded ":/qt-project.org/imports/QtQuick/Templates/qmldir"
+qt.qml.import: addImplicitImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/Calendar.qml
+qt.qml.import: addFileImport: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/Calendar.qml "." version "(latest)" as ""
+qt.qml.import: importExtension: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/Calendar.qml loaded ":/qt-project.org/imports/QtQuick/Controls/Basic/qmldir"
+qt.qml.import: resolveType: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/Calendar.qml "T.Calendar"  =>  "QQuickCalendar"  TYPE
+qt.qml.import: resolveType: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "T.StackView"  =>  "QQuickStackView"  TYPE
+qt.qml.import: resolveType: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "XAnimator"  =>  "QQuickXAnimator"  TYPE
+qt.qml.import: resolveType: qrc:/qt-project.org/imports/QtQuick/Controls/Basic/StackView.qml "Transition"  =>  "QQuickTransition"  TYPE
+qt.quick.layouts: QQuickLayoutAttached::invalidateItem
+QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0) (0x25b0579f4e0) now has the following listeners:
+- ChangeListener listener=0x25b057c2b50 types= SiblingOrder|Visibility|Destroyed|ImplicitWidth|ImplicitHeight (QObject: QObject(0x0))
+qt.quick.layouts: ChildAdded QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0)
+qt.quick.hover.trace: QQuickText(0x25b057c2c20, parent=0x0, geometry=0,0 0x0) 0 -> false
+qt.quick.layouts: QQuickLayoutAttached::invalidateItem
+qt.quick.hover.trace: QQuickText(0x25b057c2a40, parent=0x0, geometry=0,0 0x0) 0 -> false
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b05790ea0, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle_QML_5(0x25b05790a40, parent=0x0, geometry=0,0 110x34) 0 -> true
+qt.quick.hover.trace: QQuickRow(0x25b06c858a0, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389c310, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389c230, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.layouts: QQuickLayoutAttached::invalidateItem
+qt.quick.hover.trace: QQuickColumnLayout(0x25b057c2770, parent=0x0, geometry=0,0 0x0) 0 -> true
+QQuickRectangle(0x25b0389c230, parent=0x25b057c2770, geometry=0,0 0x0) (0x25b057a0120) now has the following listeners:
+- ChangeListener listener=0x25b057c2790 types= SiblingOrder|Visibility|Destroyed|ImplicitWidth|ImplicitHeight (QObject: QObject(0x0))
+qt.quick.layouts: ChildAdded QQuickRectangle(0x25b0389c230, parent=0x25b057c2770, geometry=0,0 0x0)
+qt.quick.hover.trace: StackView_QMLTYPE_0(0x25b06df0780, parent=0x25b0389c690, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickItem(0x25b0389c690, parent=0x0, geometry=0,0 0x0 ??) 0 -> true
+qt.quick.layouts: QQuickLayoutAttached::invalidateItem
+qt.quick.layouts: QQuickLayoutAttached::invalidateItem
+QQuickItem(0x25b0389c690, parent=0x25b057c2770, geometry=0,0 0x0 ??) (0x25b06d60510) now has the following listeners:
+- ChangeListener listener=0x25b057c2790 types= SiblingOrder|Visibility|Destroyed|ImplicitWidth|ImplicitHeight (QObject: QObject(0x0))
+qt.quick.layouts: ChildAdded QQuickItem(0x25b0389c690, parent=0x25b057c2770, geometry=0,0 0x0 ??)
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x0, geometry=0,0 0x0) 0 -> true
+QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0) (0x25b06deed20) now has the following listeners:
+- ChangeListener listener=0x25b057c2b50 types= SiblingOrder|Visibility|Destroyed|ImplicitWidth|ImplicitHeight (QObject: QObject(0x0))
+qt.quick.layouts: ChildAdded QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0)
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 0 -> true
+qt.quick.layouts: QQuickLayoutAttached::invalidateItem
+qt.quick.hover.trace: QQuickText(0x25b057c2860, parent=0x25b06c858a0, geometry=0,0 0x0) 0 -> false
+qt.quick.layouts: QQuickLayoutAttached::invalidateItem
+QQuickItem(0x25b0389c690, parent=0x25b057c2770, geometry=0,0 0x0 ??) (0x25b06d60510) now has the following listeners:
+- ChangeListener listener=0x25b057c2790 types= SiblingOrder|Visibility|Destroyed|ImplicitWidth|ImplicitHeight (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06ccc8f8 types= Geometry (QObject: QQuickAnchors(0x25b06df25d0))
+qt.quick.hover.trace: StackView_QMLTYPE_0(0x25b06df0780, id="stackView", parent=0x25b0389c690, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickItem(0x25b0389c690, parent=0x25b057c2770, geometry=0,0 0x0 ??) 1 -> true
+qt.quick.hover.trace: QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+QQuickLoader(0x25b06df14a0, parent=0x25b06df0780, geometry=0,0 0x0) (0x25b06d9bcb0) now has the following listeners:
+- ChangeListener listener=0x25b06cd75a8 types= Destroyed (QObject: QObject(0x0))
+StackView_QMLTYPE_0(0x25b06df0780, id="stackView", parent=0x25b0389c690, geometry=0,0 0x0) (0x25b039487c0) now has the following listeners:
+- ChangeListener listener=0x25b06ccc1d8 types= Geometry (QObject: QQuickAnchors(0x25b06e0ca60))
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "QtQuick" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/qmldir"
+qt.qml.import: loading dependent import "QtQml" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "QtQml" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml loaded ":/qt-project.org/imports/QtQml/qmldir"
+qt.qml.import: loading dependent import "QML" version 1.0 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "QML" version "1.0" as ""
+qt.qml.import: loading dependent import "QtQml.Models" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "QtQml.Models" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml loaded ":/qt-project.org/imports/QtQml/Models/qmldir"
+qt.qml.import: loading dependent import "QtQml.WorkerScript" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "QtQml.WorkerScript" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml loaded ":/qt-project.org/imports/QtQml/WorkerScript/qmldir"
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "QtQuick.Controls" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/qmldir"
+qt.qml.import: loading dependent import "QtQuick.Controls.Basic" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "QtQuick.Controls.Basic" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/qmldir"
+qt.qml.import: addFileImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "../components" version "(latest)" as ""
+qt.qml.import: addImplicitImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml
+qt.qml.import: addFileImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "." version "(latest)" as ""
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "GradientStop"  =>  "QQuickGradientStop"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "Text"  =>  "QQuickText"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "Column"  =>  "QQuickColumn"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "Item"  =>  "QQuickItem"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "Gradient"  =>  "QQuickGradient"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "vector2d"  =>  ""  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "Rectangle"  =>  "QQuickRectangle"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "ShaderEffect"  =>  "QQuickShaderEffect"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "Dock"  =>  ""   QUrl("file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml")  TYPE/URL
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QtQuick" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/qmldir"
+qt.qml.import: loading dependent import "QtQml" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QtQml" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml loaded ":/qt-project.org/imports/QtQml/qmldir"
+qt.qml.import: loading dependent import "QML" version 1.0 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QML" version "1.0" as ""
+qt.qml.import: loading dependent import "QtQml.Models" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QtQml.Models" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml loaded ":/qt-project.org/imports/QtQml/Models/qmldir"
+qt.qml.import: loading dependent import "QtQml.WorkerScript" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QtQml.WorkerScript" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml loaded ":/qt-project.org/imports/QtQml/WorkerScript/qmldir"
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QtQuick.Controls" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/qmldir"
+qt.qml.import: loading dependent import "QtQuick.Controls.Basic" version 2.15 as ""
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QtQuick.Controls.Basic" version "2.15" as ""
+qt.qml.import: importExtension: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml loaded "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/qmldir"
+qt.qml.import: addLibraryImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QML" version "1.0" as "QML"
+qt.qml.import: addImplicitImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml
+qt.qml.import: addFileImport: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "." version "(latest)" as ""
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Repeater"  =>  "QQuickRepeater"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Image"  =>  "QQuickImage"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Row"  =>  "QQuickRow"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "NumberAnimation"  =>  "QQuickNumberAnimation"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "QML.Component"  =>  "QQmlComponent"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Text"  =>  "QQuickText"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Connections"  =>  "QQmlConnections"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Timer"  =>  "QQmlTimer"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Component"  =>  "QQmlComponent"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "MouseArea"  =>  "QQuickMouseArea"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Item"  =>  "QQuickItem"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Rectangle"  =>  "QQuickRectangle"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml "Behavior"  =>  "QQuickBehavior"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "Timer"  =>  "QQmlTimer"  TYPE
+qt.qml.import: resolveType: file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/pages/HomePage.qml "vector2d"  =>  ""  TYPE
+qt.quick.hover.trace: QQuickText(0x25b057c1b40, parent=0x0, geometry=0,0 0x0) 0 -> false
+qt.quick.hover.trace: QQuickText(0x25b057c3940, parent=0x0, geometry=0,0 0x0) 0 -> false
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06df04e0, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: Dock_QMLTYPE_7(0x25b06df0080, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: HomePage_QMLTYPE_12(0x25b06df1120, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickLoader(0x25b06df14a0, parent=0x25b06df0780, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: StackView_QMLTYPE_0(0x25b06df0780, id="stackView", parent=0x25b0389c690, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickItem(0x25b0389c690, parent=0x25b057c2770, geometry=0,0 0x0 ??) 1 -> true
+qt.quick.hover.trace: QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+Dock_QMLTYPE_7(0x25b06df0080, parent=0x25b06df1120, geometry=0,0 0x124) (0x25b06d60830) now has the following listeners:
+- ChangeListener listener=0x25b06ca1a88 types= Geometry (QObject: QQuickAnchors(0x25b06ccf5f0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06df04e0, id="overlay", parent=0x25b06df0080, geometry=0,0 0x124)
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06df0400, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b06deffa0, parent=0x0, geometry=0,0 0x0) 0 -> true
+QQuickRectangle(0x25b06deffa0, parent=0x0, geometry=0,0 50x50) (0x25b06e5e240) now has the following listeners:
+- ChangeListener listener=0x25b06e61618 types= Geometry (QObject: QQuickAnchors(0x25b06cd0030))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06df0400, id="hoverArea", parent=0x25b06deffa0, geometry=0,0 50x50)
+QQuickRectangle_QML_10(0x25b06df05c0, parent=0x25b06deffa0, geometry=0,0 14x24) (0x25b06e5e400) now has the following listeners:
+- ChangeListener listener=0x25b06e62f08 types= Geometry (QObject: QQuickAnchors(0x25b06ccfff0))
+QQuickRectangle(0x25b06deffa0, parent=0x0, geometry=0,0 50x50) (0x25b06e5e240) now has the following listeners:
+- ChangeListener listener=0x25b06e61618 types= Geometry (QObject: QQuickAnchors(0x25b06cd0030))
+- ChangeListener listener=0x25b06e62328 types= Geometry (QObject: QQuickAnchors(0x25b06cd00f0))
+QQuickRectangle(0x25b06deffa0, parent=0x0, geometry=0,0 50x50) (0x25b06e5e240) now has the following listeners:
+- ChangeListener listener=0x25b06e61618 types= Geometry (QObject: QQuickAnchors(0x25b06cd0030))
+- ChangeListener listener=0x25b06e62328 types= Geometry (QObject: QQuickAnchors(0x25b06cd00f0))
+- ChangeListener listener=0x25b06e619a8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0130))
+QQuickRectangle(0x25b06deffa0, parent=0x0, geometry=0,0 50x50) (0x25b06e5e240) now has the following listeners:
+- ChangeListener listener=0x25b06e61618 types= Geometry (QObject: QQuickAnchors(0x25b06cd0030))
+- ChangeListener listener=0x25b06e62328 types= Geometry (QObject: QQuickAnchors(0x25b06cd00f0))
+- ChangeListener listener=0x25b06e619a8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0130))
+- ChangeListener listener=0x25b06ca1f48 types= Geometry (QObject: QQuickAnchors(0x25b06ccf9d0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickImage(0x25b06defd00, id="iconImg", parent=0x25b06deffa0, geometry=15,15 20x20)
+QQuickRectangle(0x25b06deffa0, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5e240) now has the following listeners:
+- ChangeListener listener=0x25b06e61618 types= Geometry (QObject: QQuickAnchors(0x25b06cd0030))
+- ChangeListener listener=0x25b06e62328 types= Geometry (QObject: QQuickAnchors(0x25b06cd00f0))
+- ChangeListener listener=0x25b06e619a8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0130))
+- ChangeListener listener=0x25b06ca1f48 types= Geometry (QObject: QQuickAnchors(0x25b06ccf9d0))
+- ChangeListener listener=0x25b06e7cfd0 types= Geometry (QObject: QObject(0x0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickShaderEffectSource(0x25b06e7cfb0, parent=0x0, geometry=0,0 50x50)
+QQuickRectangle(0x25b06deffa0, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5e240) now has the following listeners:
+- ChangeListener listener=0x25b06e61618 types= Geometry (QObject: QQuickAnchors(0x25b06cd0030))
+- ChangeListener listener=0x25b06e62328 types= Geometry (QObject: QQuickAnchors(0x25b06cd00f0))
+- ChangeListener listener=0x25b06e619a8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0130))
+- ChangeListener listener=0x25b06ca1f48 types= Geometry (QObject: QQuickAnchors(0x25b06ccf9d0))
+- ChangeListener listener=0x25b06e7cfd0 types= Geometry (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06d3fc60 types= Geometry|SiblingOrder|Visibility|Opacity|Parent (QObject: QObject(0x0))
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::targetSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:184 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:65:21
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06e81870, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b06e82910, parent=0x0, geometry=0,0 0x0) 0 -> true
+QQuickRectangle(0x25b06e82910, parent=0x0, geometry=0,0 50x50) (0x25b06e5ee80) now has the following listeners:
+- ChangeListener listener=0x25b06e61748 types= Geometry (QObject: QQuickAnchors(0x25b06cd0890))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06e81870, id="hoverArea", parent=0x25b06e82910, geometry=0,0 50x50)
+QQuickRectangle_QML_10(0x25b06e81cd0, parent=0x25b06e82910, geometry=0,0 14x24) (0x25b06e5e5c0) now has the following listeners:
+- ChangeListener listener=0x25b06e614e8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0b90))
+QQuickRectangle(0x25b06e82910, parent=0x0, geometry=0,0 50x50) (0x25b06e5ee80) now has the following listeners:
+- ChangeListener listener=0x25b06e61748 types= Geometry (QObject: QQuickAnchors(0x25b06cd0890))
+- ChangeListener listener=0x25b06e62b78 types= Geometry (QObject: QQuickAnchors(0x25b06cd0a10))
+QQuickRectangle(0x25b06e82910, parent=0x0, geometry=0,0 50x50) (0x25b06e5ee80) now has the following listeners:
+- ChangeListener listener=0x25b06e61748 types= Geometry (QObject: QQuickAnchors(0x25b06cd0890))
+- ChangeListener listener=0x25b06e62b78 types= Geometry (QObject: QQuickAnchors(0x25b06cd0a10))
+- ChangeListener listener=0x25b06e613b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd08f0))
+QQuickRectangle(0x25b06e82910, parent=0x0, geometry=0,0 50x50) (0x25b06e5ee80) now has the following listeners:
+- ChangeListener listener=0x25b06e61748 types= Geometry (QObject: QQuickAnchors(0x25b06cd0890))
+- ChangeListener listener=0x25b06e62b78 types= Geometry (QObject: QQuickAnchors(0x25b06cd0a10))
+- ChangeListener listener=0x25b06e613b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd08f0))
+- ChangeListener listener=0x25b06e61ad8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0b30))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickImage(0x25b06e82750, id="iconImg", parent=0x25b06e82910, geometry=15,15 20x20)
+QQuickRectangle(0x25b06e82910, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5ee80) now has the following listeners:
+- ChangeListener listener=0x25b06e61748 types= Geometry (QObject: QQuickAnchors(0x25b06cd0890))
+- ChangeListener listener=0x25b06e62b78 types= Geometry (QObject: QQuickAnchors(0x25b06cd0a10))
+- ChangeListener listener=0x25b06e613b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd08f0))
+- ChangeListener listener=0x25b06e61ad8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0b30))
+- ChangeListener listener=0x25b06e7ed10 types= Geometry (QObject: QObject(0x0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickShaderEffectSource(0x25b06e7ecf0, parent=0x0, geometry=0,0 50x50)
+QQuickRectangle(0x25b06e82910, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5ee80) now has the following listeners:
+- ChangeListener listener=0x25b06e61748 types= Geometry (QObject: QQuickAnchors(0x25b06cd0890))
+- ChangeListener listener=0x25b06e62b78 types= Geometry (QObject: QQuickAnchors(0x25b06cd0a10))
+- ChangeListener listener=0x25b06e613b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd08f0))
+- ChangeListener listener=0x25b06e61ad8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0b30))
+- ChangeListener listener=0x25b06e7ed10 types= Geometry (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06eb9ab0 types= Geometry|SiblingOrder|Visibility|Opacity|Parent (QObject: QObject(0x0))
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::targetSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:184 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:65:21
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06e82bb0, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b06e82050, parent=0x0, geometry=0,0 0x0) 0 -> true
+QQuickRectangle(0x25b06e82050, parent=0x0, geometry=0,0 50x50) (0x25b06e5d280) now has the following listeners:
+- ChangeListener listener=0x25b06e61e68 types= Geometry (QObject: QQuickAnchors(0x25b06cd0630))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06e82bb0, id="hoverArea", parent=0x25b06e82050, geometry=0,0 50x50)
+QQuickRectangle_QML_10(0x25b06e81bf0, parent=0x25b06e82050, geometry=0,0 14x24) (0x25b06e5d980) now has the following listeners:
+- ChangeListener listener=0x25b06e62a48 types= Geometry (QObject: QQuickAnchors(0x25b06cd09d0))
+QQuickRectangle(0x25b06e82050, parent=0x0, geometry=0,0 50x50) (0x25b06e5d280) now has the following listeners:
+- ChangeListener listener=0x25b06e61e68 types= Geometry (QObject: QQuickAnchors(0x25b06cd0630))
+- ChangeListener listener=0x25b06e61d38 types= Geometry (QObject: QQuickAnchors(0x25b06cd0610))
+QQuickRectangle(0x25b06e82050, parent=0x0, geometry=0,0 50x50) (0x25b06e5d280) now has the following listeners:
+- ChangeListener listener=0x25b06e61e68 types= Geometry (QObject: QQuickAnchors(0x25b06cd0630))
+- ChangeListener listener=0x25b06e61d38 types= Geometry (QObject: QQuickAnchors(0x25b06cd0610))
+- ChangeListener listener=0x25b06e61c08 types= Geometry (QObject: QQuickAnchors(0x25b06cd0c30))
+QQuickRectangle(0x25b06e82050, parent=0x0, geometry=0,0 50x50) (0x25b06e5d280) now has the following listeners:
+- ChangeListener listener=0x25b06e61e68 types= Geometry (QObject: QQuickAnchors(0x25b06cd0630))
+- ChangeListener listener=0x25b06e61d38 types= Geometry (QObject: QQuickAnchors(0x25b06cd0610))
+- ChangeListener listener=0x25b06e61c08 types= Geometry (QObject: QQuickAnchors(0x25b06cd0c30))
+- ChangeListener listener=0x25b06e62458 types= Geometry (QObject: QQuickAnchors(0x25b06cd0910))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickImage(0x25b06e81a30, id="iconImg", parent=0x25b06e82050, geometry=15,15 20x20)
+QQuickRectangle(0x25b06e82050, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5d280) now has the following listeners:
+- ChangeListener listener=0x25b06e61e68 types= Geometry (QObject: QQuickAnchors(0x25b06cd0630))
+- ChangeListener listener=0x25b06e61d38 types= Geometry (QObject: QQuickAnchors(0x25b06cd0610))
+- ChangeListener listener=0x25b06e61c08 types= Geometry (QObject: QQuickAnchors(0x25b06cd0c30))
+- ChangeListener listener=0x25b06e62458 types= Geometry (QObject: QQuickAnchors(0x25b06cd0910))
+- ChangeListener listener=0x25b06e7f2b0 types= Geometry (QObject: QObject(0x0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickShaderEffectSource(0x25b06e7f290, parent=0x0, geometry=0,0 50x50)
+QQuickRectangle(0x25b06e82050, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5d280) now has the following listeners:
+- ChangeListener listener=0x25b06e61e68 types= Geometry (QObject: QQuickAnchors(0x25b06cd0630))
+- ChangeListener listener=0x25b06e61d38 types= Geometry (QObject: QQuickAnchors(0x25b06cd0610))
+- ChangeListener listener=0x25b06e61c08 types= Geometry (QObject: QQuickAnchors(0x25b06cd0c30))
+- ChangeListener listener=0x25b06e62458 types= Geometry (QObject: QQuickAnchors(0x25b06cd0910))
+- ChangeListener listener=0x25b06e7f2b0 types= Geometry (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06ebacd0 types= Geometry|SiblingOrder|Visibility|Opacity|Parent (QObject: QObject(0x0))
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::targetSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:184 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:65:21
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06e81790, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b06e81410, parent=0x0, geometry=0,0 0x0) 0 -> true
+QQuickRectangle(0x25b06e81410, parent=0x0, geometry=0,0 50x50) (0x25b06e5e080) now has the following listeners:
+- ChangeListener listener=0x25b06e94488 types= Geometry (QObject: QQuickAnchors(0x25b06cd11f0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06e81790, id="hoverArea", parent=0x25b06e81410, geometry=0,0 50x50)
+QQuickRectangle_QML_10(0x25b06e815d0, parent=0x25b06e81410, geometry=0,0 14x24) (0x25b06e5db40) now has the following listeners:
+- ChangeListener listener=0x25b06e62ca8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0ff0))
+QQuickRectangle(0x25b06e81410, parent=0x0, geometry=0,0 50x50) (0x25b06e5e080) now has the following listeners:
+- ChangeListener listener=0x25b06e94488 types= Geometry (QObject: QQuickAnchors(0x25b06cd11f0))
+- ChangeListener listener=0x25b06e945b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd1490))
+QQuickRectangle(0x25b06e81410, parent=0x0, geometry=0,0 50x50) (0x25b06e5e080) now has the following listeners:
+- ChangeListener listener=0x25b06e94488 types= Geometry (QObject: QQuickAnchors(0x25b06cd11f0))
+- ChangeListener listener=0x25b06e945b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd1490))
+- ChangeListener listener=0x25b06e62918 types= Geometry (QObject: QQuickAnchors(0x25b06cd1090))
+QQuickRectangle(0x25b06e81410, parent=0x0, geometry=0,0 50x50) (0x25b06e5e080) now has the following listeners:
+- ChangeListener listener=0x25b06e94488 types= Geometry (QObject: QQuickAnchors(0x25b06cd11f0))
+- ChangeListener listener=0x25b06e945b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd1490))
+- ChangeListener listener=0x25b06e62918 types= Geometry (QObject: QQuickAnchors(0x25b06cd1090))
+- ChangeListener listener=0x25b06e61878 types= Geometry (QObject: QQuickAnchors(0x25b06cd0510))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickImage(0x25b06e814f0, id="iconImg", parent=0x25b06e81410, geometry=15,15 20x20)
+QQuickRectangle(0x25b06e81410, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5e080) now has the following listeners:
+- ChangeListener listener=0x25b06e94488 types= Geometry (QObject: QQuickAnchors(0x25b06cd11f0))
+- ChangeListener listener=0x25b06e945b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd1490))
+- ChangeListener listener=0x25b06e62918 types= Geometry (QObject: QQuickAnchors(0x25b06cd1090))
+- ChangeListener listener=0x25b06e61878 types= Geometry (QObject: QQuickAnchors(0x25b06cd0510))
+- ChangeListener listener=0x25b06e80810 types= Geometry (QObject: QObject(0x0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickShaderEffectSource(0x25b06e807f0, parent=0x0, geometry=0,0 50x50)
+QQuickRectangle(0x25b06e81410, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5e080) now has the following listeners:
+- ChangeListener listener=0x25b06e94488 types= Geometry (QObject: QQuickAnchors(0x25b06cd11f0))
+- ChangeListener listener=0x25b06e945b8 types= Geometry (QObject: QQuickAnchors(0x25b06cd1490))
+- ChangeListener listener=0x25b06e62918 types= Geometry (QObject: QQuickAnchors(0x25b06cd1090))
+- ChangeListener listener=0x25b06e61878 types= Geometry (QObject: QQuickAnchors(0x25b06cd0510))
+- ChangeListener listener=0x25b06e80810 types= Geometry (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06ebbf90 types= Geometry|SiblingOrder|Visibility|Opacity|Parent (QObject: QObject(0x0))
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::targetSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:184 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:65:21
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06eec0d0, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b06eebff0, parent=0x0, geometry=0,0 0x0) 0 -> true
+QQuickRectangle(0x25b06eebff0, parent=0x0, geometry=0,0 50x50) (0x25b06e5e780) now has the following listeners:
+- ChangeListener listener=0x25b06e94948 types= Geometry (QObject: QQuickAnchors(0x25b06cd1810))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06eec0d0, id="hoverArea", parent=0x25b06eebff0, geometry=0,0 50x50)
+QQuickRectangle_QML_10(0x25b06eeb3b0, parent=0x25b06eebff0, geometry=0,0 14x24) (0x25b06e5dd00) now has the following listeners:
+- ChangeListener listener=0x25b06e952c8 types= Geometry (QObject: QQuickAnchors(0x25b06cd15f0))
+QQuickRectangle(0x25b06eebff0, parent=0x0, geometry=0,0 50x50) (0x25b06e5e780) now has the following listeners:
+- ChangeListener listener=0x25b06e94948 types= Geometry (QObject: QQuickAnchors(0x25b06cd1810))
+- ChangeListener listener=0x25b06e94a78 types= Geometry (QObject: QQuickAnchors(0x25b06cd18b0))
+QQuickRectangle(0x25b06eebff0, parent=0x0, geometry=0,0 50x50) (0x25b06e5e780) now has the following listeners:
+- ChangeListener listener=0x25b06e94948 types= Geometry (QObject: QQuickAnchors(0x25b06cd1810))
+- ChangeListener listener=0x25b06e94a78 types= Geometry (QObject: QQuickAnchors(0x25b06cd18b0))
+- ChangeListener listener=0x25b06e946e8 types= Geometry (QObject: QQuickAnchors(0x25b06cd13d0))
+QQuickRectangle(0x25b06eebff0, parent=0x0, geometry=0,0 50x50) (0x25b06e5e780) now has the following listeners:
+- ChangeListener listener=0x25b06e94948 types= Geometry (QObject: QQuickAnchors(0x25b06cd1810))
+- ChangeListener listener=0x25b06e94a78 types= Geometry (QObject: QQuickAnchors(0x25b06cd18b0))
+- ChangeListener listener=0x25b06e946e8 types= Geometry (QObject: QQuickAnchors(0x25b06cd13d0))
+- ChangeListener listener=0x25b06e940f8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0df0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickImage(0x25b06eec610, id="iconImg", parent=0x25b06eebff0, geometry=15,15 20x20)
+QQuickRectangle(0x25b06eebff0, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5e780) now has the following listeners:
+- ChangeListener listener=0x25b06e94948 types= Geometry (QObject: QQuickAnchors(0x25b06cd1810))
+- ChangeListener listener=0x25b06e94a78 types= Geometry (QObject: QQuickAnchors(0x25b06cd18b0))
+- ChangeListener listener=0x25b06e946e8 types= Geometry (QObject: QQuickAnchors(0x25b06cd13d0))
+- ChangeListener listener=0x25b06e940f8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0df0))
+- ChangeListener listener=0x25b06eed970 types= Geometry (QObject: QObject(0x0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickShaderEffectSource(0x25b06eed950, parent=0x0, geometry=0,0 50x50)
+QQuickRectangle(0x25b06eebff0, id="button", parent=0x0, geometry=0,0 50x50) (0x25b06e5e780) now has the following listeners:
+- ChangeListener listener=0x25b06e94948 types= Geometry (QObject: QQuickAnchors(0x25b06cd1810))
+- ChangeListener listener=0x25b06e94a78 types= Geometry (QObject: QQuickAnchors(0x25b06cd18b0))
+- ChangeListener listener=0x25b06e946e8 types= Geometry (QObject: QQuickAnchors(0x25b06cd13d0))
+- ChangeListener listener=0x25b06e940f8 types= Geometry (QObject: QQuickAnchors(0x25b06cd0df0))
+- ChangeListener listener=0x25b06eed970 types= Geometry (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06ebbd10 types= Geometry|SiblingOrder|Visibility|Opacity|Parent (QObject: QObject(0x0))
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::targetSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:184 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:65:21
+QQuickRectangle(0x25b06df0320, parent=0x25b06df0080, geometry=0,0 16x70) (0x25b0579ec20) now has the following listeners:
+- ChangeListener listener=0x25b06ca1958 types= Geometry (QObject: QQuickAnchors(0x25b06ccfa10))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickItem_QML_9(0x25b06df0f60, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickItem_QML_9(0x25b06e81f70, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickItem_QML_9(0x25b06e82590, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickItem_QML_9(0x25b06e81250, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickItem_QML_9(0x25b06df0b00, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRepeater(0x25b06df1820, parent=0x25b06e119a0, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRow(0x25b06e119a0, id="contentRow", parent=0x25b06df0320, geometry=8,0 0x0)
+QQuickItem_QML_9(0x25b06df0f60, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50) (0x25b06d60ce0) now has the following listeners:
+- ChangeListener listener=0x25b06e5ee48 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06e119a0))
+QQuickItem_QML_9(0x25b06e81f70, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50) (0x25b06d60060) now has the following listeners:
+- ChangeListener listener=0x25b06e5ee48 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06e119a0))
+QQuickItem_QML_9(0x25b06e82590, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50) (0x25b06d617d0) now has the following listeners:
+- ChangeListener listener=0x25b06e5ee48 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06e119a0))
+QQuickItem_QML_9(0x25b06e81250, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50) (0x25b06d61960) now has the following listeners:
+- ChangeListener listener=0x25b06e5ee48 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06e119a0))
+QQuickItem_QML_9(0x25b06df0b00, id="itemWrap", parent=0x25b06e119a0, geometry=0,0 50x50) (0x25b06d60380) now has the following listeners:
+- ChangeListener listener=0x25b06e5ee48 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06e119a0))
+Dock_QMLTYPE_7(0x25b06df0080, parent=0x25b06df1120, geometry=0,0 0x124) (0x25b06d60830) now has the following listeners:
+- ChangeListener listener=0x25b06ca1a88 types= Geometry (QObject: QQuickAnchors(0x25b06ccf5f0))
+- ChangeListener listener=0x25b06ca1498 types= Geometry (QObject: QQuickAnchors(0x25b06ccf850))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle(0x25b06df0320, id="panel", parent=0x25b06df0080, geometry=-165,0 330x70)
+HomePage_QMLTYPE_12(0x25b06df1120, parent=0x25b06df14a0, geometry=0,0 0x0) (0x25b06d61320) now has the following listeners:
+- ChangeListener listener=0x25b06ca15c8 types= Geometry (QObject: QQuickAnchors(0x25b06ccf6f0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of Dock_QMLTYPE_7(0x25b06df0080, parent=0x25b06df1120, geometry=0,-164 0x124)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b057c3940, parent=0x25b057d9580, geometry=0,0 217x19)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b057c1b40, parent=0x25b057d9580, geometry=0,0 284x48)
+HomePage_QMLTYPE_12(0x25b06df1120, parent=0x25b06df14a0, geometry=0,0 0x0) (0x25b06d61320) now has the following listeners:
+- ChangeListener listener=0x25b06ca15c8 types= Geometry (QObject: QQuickAnchors(0x25b06ccf6f0))
+- ChangeListener listener=0x25b06ca1828 types= Geometry (QObject: QQuickAnchors(0x25b06ccf670))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickColumn(0x25b057d9580, parent=0x25b06df1120, geometry=0,120 0x0)
+QQuickText(0x25b057c1b40, parent=0x25b057d9580, geometry=0,0 284x48) (0x25b03a23df0) now has the following listeners:
+- ChangeListener listener=0x25b0579ebe8 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickColumn(0x25b057d9580))
+QQuickText(0x25b057c3940, parent=0x25b057d9580, geometry=0,0 217x19) (0x25b03a233f0) now has the following listeners:
+- ChangeListener listener=0x25b0579ebe8 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickColumn(0x25b057d9580))
+HomePage_QMLTYPE_12(0x25b06df1120, parent=0x25b06df14a0, geometry=0,0 0x0) (0x25b06d61320) now has the following listeners:
+- ChangeListener listener=0x25b06ca15c8 types= Geometry (QObject: QQuickAnchors(0x25b06ccf6f0))
+- ChangeListener listener=0x25b06ca1828 types= Geometry (QObject: QQuickAnchors(0x25b06ccf670))
+- ChangeListener listener=0x25b06ca1368 types= Geometry (QObject: QQuickAnchors(0x25b06ccfc50))
+HomePage_QMLTYPE_12(0x25b06df1120, parent=0x25b06df14a0, geometry=0,0 0x0) (0x25b06d61320) now has the following listeners:
+- ChangeListener listener=0x25b06ca15c8 types= Geometry (QObject: QQuickAnchors(0x25b06ccf6f0))
+- ChangeListener listener=0x25b06ca1828 types= Geometry (QObject: QQuickAnchors(0x25b06ccf670))
+- ChangeListener listener=0x25b06ca1368 types= Geometry (QObject: QQuickAnchors(0x25b06ccfc50))
+- ChangeListener listener=0x25b06ca1bb8 types= Geometry (QObject: QQuickAnchors(0x25b06ccf970))
+QQuickLoader(0x25b06df14a0, parent=0x25b06df0780, geometry=0,0 0x0) (0x25b06d9bcb0) now has the following listeners:
+- ChangeListener listener=0x25b06cd75a8 types= Destroyed (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06ca2078 types= Geometry (QObject: QQuickAnchors(0x25b06ccfbf0))
+HomePage_QMLTYPE_12(0x25b06df1120, id="homeRoot", parent=0x25b06df14a0, geometry=0,0 0x0) (0x25b06d61320) now has the following listeners:
+- ChangeListener listener=0x25b06ca15c8 types= Geometry (QObject: QQuickAnchors(0x25b06ccf6f0))
+- ChangeListener listener=0x25b06ca1828 types= Geometry (QObject: QQuickAnchors(0x25b06ccf670))
+- ChangeListener listener=0x25b06ca1368 types= Geometry (QObject: QQuickAnchors(0x25b06ccfc50))
+- ChangeListener listener=0x25b06ca1bb8 types= Geometry (QObject: QQuickAnchors(0x25b06ccf970))
+- ChangeListener listener=0x25b06d9be38 types= Geometry|ImplicitWidth|ImplicitHeight (QObject: QQuickLoader(0x25b06df14a0))
+QQuickRectangle_QML_5(0x25b05790a40, parent=0x25b06c858a0, geometry=0,0 110x34) (0x25b057a0660) now has the following listeners:
+- ChangeListener listener=0x25b06ccbab8 types= Geometry (QObject: QQuickAnchors(0x25b06def7b0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b05790ea0, parent=0x25b05790a40, geometry=0,0 110x34)
+QQuickRectangle_QML_5(0x25b05790a40, parent=0x25b06c858a0, geometry=0,0 110x34) (0x25b057a0660) now has the following listeners:
+- ChangeListener listener=0x25b06ccbab8 types= Geometry (QObject: QQuickAnchors(0x25b06def7b0))
+- ChangeListener listener=0x25b06ccac78 types= Geometry (QObject: QQuickAnchors(0x25b06def6d0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b057c2a40, parent=0x25b05790a40, geometry=55,17 0x0)
+qt.quick.hover.trace: QQuickRectangle_QML_5(0x25b05790a40, parent=0x25b06c858a0, geometry=0,0 110x34) 1 -> true
+qt.quick.hover.trace: QQuickRow(0x25b06c858a0, parent=0x25b0389c310, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389c310, parent=0x25b0389c230, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389c230, parent=0x25b057c2770, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+QQuickRow(0x25b06c858a0, parent=0x25b0389c310, geometry=0,0 0x0) (0x25b0579f320) now has the following listeners:
+- ChangeListener listener=0x25b06ccb008 types= Geometry (QObject: QQuickAnchors(0x25b06dec640))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b057c2860, parent=0x25b06c858a0, geometry=0,0 46x21)
+QQuickRectangle(0x25b05790960, parent=0x25b06c858a0, geometry=0,0 34x34) (0x25b0579ff60) now has the following listeners:
+- ChangeListener listener=0x25b06ccb988 types= Geometry (QObject: QQuickAnchors(0x25b06dec600))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b057c2c20, parent=0x25b05790960, geometry=17,17 0x0)
+QQuickRectangle(0x25b0389c310, parent=0x25b0389c230, geometry=0,0 0x0) (0x25b0579f160) now has the following listeners:
+- ChangeListener listener=0x25b06ccbbe8 types= Geometry (QObject: QQuickAnchors(0x25b06def830))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle(0x25b05790960, parent=0x25b06c858a0, geometry=0,0 34x34)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickItem(0x25b05790ce0, parent=0x25b06c858a0, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle_QML_5(0x25b05790a40, parent=0x25b06c858a0, geometry=0,0 110x34)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRow(0x25b06c858a0, parent=0x25b0389c310, geometry=16,16 0x0)
+QQuickRectangle(0x25b05790960, parent=0x25b06c858a0, geometry=0,0 34x34) (0x25b0579ff60) now has the following listeners:
+- ChangeListener listener=0x25b06ccb988 types= Geometry (QObject: QQuickAnchors(0x25b06dec600))
+- ChangeListener listener=0x25b0579f4a8 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06c858a0))
+QQuickText(0x25b057c2860, parent=0x25b06c858a0, geometry=0,-27 46x21) (0x25b03a229f0) now has the following listeners:
+- ChangeListener listener=0x25b0579f4a8 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06c858a0))
+QQuickItem(0x25b05790ce0, parent=0x25b06c858a0, geometry=0,0 0x0) (0x25b06d609c0) now has the following listeners:
+- ChangeListener listener=0x25b0579f4a8 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06c858a0))
+QQuickRectangle_QML_5(0x25b05790a40, parent=0x25b06c858a0, geometry=0,0 110x34) (0x25b057a0660) now has the following listeners:
+- ChangeListener listener=0x25b06ccbab8 types= Geometry (QObject: QQuickAnchors(0x25b06def7b0))
+- ChangeListener listener=0x25b06ccac78 types= Geometry (QObject: QQuickAnchors(0x25b06def6d0))
+- ChangeListener listener=0x25b0579f4a8 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickRow(0x25b06c858a0))
+QQuickRectangle(0x25b0389c230, parent=0x25b057c2770, geometry=0,0 0x0) (0x25b057a0120) now has the following listeners:
+- ChangeListener listener=0x25b057c2790 types= SiblingOrder|Visibility|Destroyed|ImplicitWidth|ImplicitHeight (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06ccbd18 types= Geometry (QObject: QQuickAnchors(0x25b06def750))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle(0x25b0389c310, parent=0x25b0389c230, geometry=14,14 0x0)
+qt.quick.layouts: QQuickGridLayoutBase::componentComplete() QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0) QQuickRowLayout(0x25b057c2b30)
+qt.quick.layouts: QQuickGridLayoutBase::invalidate() QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0) , invalidated: true
+qt.quick.layouts: calling QQuickLayout::invalidate();
+qt.quick.layouts: QQuickGridLayoutBase::invalidate() LEAVING QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0)
+qt.quick.layouts: ENTER QQuickLayout::ensureLayoutItemsUpdated() QQuickColumnLayout(0x25b057c2770) QFlags(0x2)
+qt.quick.layouts: QQuickGridLayoutBase::updateLayoutItems ENTERING QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0)
+qt.quick.layouts: QQuickGridLayoutBase::updateLayoutItems() LEAVING QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0)
+qt.quick.layouts: LEAVE QQuickLayout::ensureLayoutItemsUpdated() QQuickColumnLayout(0x25b057c2770)
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06eeca70, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eec990, parent=0x0, geometry=0,0 48x48) 0 -> true
+qt.quick.hover.trace: QQuickColumn(0x25b06c87bb0, parent=0x25b0389bf90, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+qt.quick.hover.trace: QQuickText(0x25b06e91780, parent=0x25b06eec990, geometry=0,0 0x0) 0 -> false
+QQuickRectangle_QML_4(0x25b06eec990, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5f560) now has the following listeners:
+- ChangeListener listener=0x25b06e95198 types= Geometry (QObject: QQuickAnchors(0x25b06cce330))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b06e91780, parent=0x25b06eec990, geometry=24,24 0x0)
+QQuickRectangle_QML_4(0x25b06eec990, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5f560) now has the following listeners:
+- ChangeListener listener=0x25b06e95198 types= Geometry (QObject: QQuickAnchors(0x25b06cce330))
+- ChangeListener listener=0x25b06e93c38 types= Geometry (QObject: QQuickAnchors(0x25b06cce0f0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06eeca70, parent=0x25b06eec990, geometry=0,0 48x48)
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eec990, parent=0x25b06c87bb0, geometry=0,0 48x48) 1 -> true
+qt.quick.hover.trace: QQuickColumn(0x25b06c87bb0, parent=0x25b0389bf90, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06eecb50, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eec1b0, parent=0x0, geometry=0,0 48x48) 0 -> true
+qt.quick.hover.trace: QQuickText(0x25b06e90010, parent=0x25b06eec1b0, geometry=0,0 0x0) 0 -> false
+QQuickRectangle_QML_4(0x25b06eec1b0, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5e3e0) now has the following listeners:
+- ChangeListener listener=0x25b06ccc0a8 types= Geometry (QObject: QQuickAnchors(0x25b06ccdf10))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b06e90010, parent=0x25b06eec1b0, geometry=24,24 0x0)
+QQuickRectangle_QML_4(0x25b06eec1b0, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5e3e0) now has the following listeners:
+- ChangeListener listener=0x25b06ccc0a8 types= Geometry (QObject: QQuickAnchors(0x25b06ccdf10))
+- ChangeListener listener=0x25b06e621f8 types= Geometry (QObject: QQuickAnchors(0x25b06cce130))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06eecb50, parent=0x25b06eec1b0, geometry=0,0 48x48)
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eec1b0, parent=0x25b06c87bb0, geometry=0,0 48x48) 1 -> true
+qt.quick.hover.trace: QQuickColumn(0x25b06c87bb0, parent=0x25b0389bf90, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06eec7d0, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eec290, parent=0x0, geometry=0,0 48x48) 0 -> true
+qt.quick.hover.trace: QQuickText(0x25b07063b00, parent=0x25b06eec290, geometry=0,0 0x0) 0 -> false
+QQuickRectangle_QML_4(0x25b06eec290, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5f020) now has the following listeners:
+- ChangeListener listener=0x25b070626e8 types= Geometry (QObject: QQuickAnchors(0x25b06cce0b0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b07063b00, parent=0x25b06eec290, geometry=24,24 0x0)
+QQuickRectangle_QML_4(0x25b06eec290, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5f020) now has the following listeners:
+- ChangeListener listener=0x25b070626e8 types= Geometry (QObject: QQuickAnchors(0x25b06cce0b0))
+- ChangeListener listener=0x25b070625b8 types= Geometry (QObject: QQuickAnchors(0x25b06cce3b0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06eec7d0, parent=0x25b06eec290, geometry=0,0 48x48)
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eec290, parent=0x25b06c87bb0, geometry=0,0 48x48) 1 -> true
+qt.quick.hover.trace: QQuickColumn(0x25b06c87bb0, parent=0x25b0389bf90, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06eebb90, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eebab0, parent=0x0, geometry=0,0 48x48) 0 -> true
+qt.quick.hover.trace: QQuickText(0x25b07064640, parent=0x25b06eebab0, geometry=0,0 0x0) 0 -> false
+QQuickRectangle_QML_4(0x25b06eebab0, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5db20) now has the following listeners:
+- ChangeListener listener=0x25b07061c38 types= Geometry (QObject: QQuickAnchors(0x25b06cce7f0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b07064640, parent=0x25b06eebab0, geometry=24,24 0x0)
+QQuickRectangle_QML_4(0x25b06eebab0, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5db20) now has the following listeners:
+- ChangeListener listener=0x25b07061c38 types= Geometry (QObject: QQuickAnchors(0x25b06cce7f0))
+- ChangeListener listener=0x25b07062a78 types= Geometry (QObject: QQuickAnchors(0x25b06cce810))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06eebb90, parent=0x25b06eebab0, geometry=0,0 48x48)
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eebab0, parent=0x25b06c87bb0, geometry=0,0 48x48) 1 -> true
+qt.quick.hover.trace: QQuickColumn(0x25b06c87bb0, parent=0x25b0389bf90, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::ArrowCursor
+qt.quick.hover.trace: Qt::ArrowCursor -> Qt::PointingHandCursor
+qt.quick.hover.trace: QQuickMouseArea(0x25b06eecc30, parent=0x0, geometry=0,0 0x0) 0 -> true
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eebc70, parent=0x0, geometry=0,0 48x48) 0 -> true
+qt.quick.hover.trace: QQuickText(0x25b07064460, parent=0x25b06eebc70, geometry=0,0 0x0) 0 -> false
+QQuickRectangle_QML_4(0x25b06eebc70, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5e220) now has the following listeners:
+- ChangeListener listener=0x25b07062358 types= Geometry (QObject: QQuickAnchors(0x25b06ccea30))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickText(0x25b07064460, parent=0x25b06eebc70, geometry=24,24 0x0)
+QQuickRectangle_QML_4(0x25b06eebc70, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5e220) now has the following listeners:
+- ChangeListener listener=0x25b07062358 types= Geometry (QObject: QQuickAnchors(0x25b06ccea30))
+- ChangeListener listener=0x25b07061d68 types= Geometry (QObject: QQuickAnchors(0x25b06ccead0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickMouseArea(0x25b06eecc30, parent=0x25b06eebc70, geometry=0,0 48x48)
+qt.quick.hover.trace: QQuickRectangle_QML_4(0x25b06eebc70, parent=0x25b06c87bb0, geometry=0,0 48x48) 1 -> true
+qt.quick.hover.trace: QQuickColumn(0x25b06c87bb0, parent=0x25b0389bf90, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) 1 -> true
+qt.quick.hover.trace: Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) 1 -> true
+QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0) (0x25b0579f4e0) now has the following listeners:
+- ChangeListener listener=0x25b057c2b50 types= SiblingOrder|Visibility|Destroyed|ImplicitWidth|ImplicitHeight (QObject: QObject(0x0))
+- ChangeListener listener=0x25b06ccc698 types= Geometry (QObject: QQuickAnchors(0x25b06dec540))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle_QML_4(0x25b06eec990, parent=0x25b06c87bb0, geometry=0,0 48x48)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle_QML_4(0x25b06eec1b0, parent=0x25b06c87bb0, geometry=0,0 48x48)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle_QML_4(0x25b06eec290, parent=0x25b06c87bb0, geometry=0,0 48x48)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle_QML_4(0x25b06eebab0, parent=0x25b06c87bb0, geometry=0,0 48x48)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle_QML_4(0x25b06eebc70, parent=0x25b06c87bb0, geometry=0,0 48x48)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRepeater(0x25b0389c150, parent=0x25b06c87bb0, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickColumn(0x25b06c87bb0, parent=0x25b0389bf90, geometry=14,0 0x0)
+QQuickRectangle_QML_4(0x25b06eec990, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5f560) now has the following listeners:
+- ChangeListener listener=0x25b06e95198 types= Geometry (QObject: QQuickAnchors(0x25b06cce330))
+- ChangeListener listener=0x25b06e93c38 types= Geometry (QObject: QQuickAnchors(0x25b06cce0f0))
+- ChangeListener listener=0x25b0579fd68 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickColumn(0x25b06c87bb0))
+QQuickRectangle_QML_4(0x25b06eec1b0, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5e3e0) now has the following listeners:
+- ChangeListener listener=0x25b06ccc0a8 types= Geometry (QObject: QQuickAnchors(0x25b06ccdf10))
+- ChangeListener listener=0x25b06e621f8 types= Geometry (QObject: QQuickAnchors(0x25b06cce130))
+- ChangeListener listener=0x25b0579fd68 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickColumn(0x25b06c87bb0))
+QQuickRectangle_QML_4(0x25b06eec290, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5f020) now has the following listeners:
+- ChangeListener listener=0x25b070626e8 types= Geometry (QObject: QQuickAnchors(0x25b06cce0b0))
+- ChangeListener listener=0x25b070625b8 types= Geometry (QObject: QQuickAnchors(0x25b06cce3b0))
+- ChangeListener listener=0x25b0579fd68 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickColumn(0x25b06c87bb0))
+QQuickRectangle_QML_4(0x25b06eebab0, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5db20) now has the following listeners:
+- ChangeListener listener=0x25b07061c38 types= Geometry (QObject: QQuickAnchors(0x25b06cce7f0))
+- ChangeListener listener=0x25b07062a78 types= Geometry (QObject: QQuickAnchors(0x25b06cce810))
+- ChangeListener listener=0x25b0579fd68 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickColumn(0x25b06c87bb0))
+QQuickRectangle_QML_4(0x25b06eebc70, parent=0x25b06c87bb0, geometry=0,0 48x48) (0x25b06f5e220) now has the following listeners:
+- ChangeListener listener=0x25b07062358 types= Geometry (QObject: QQuickAnchors(0x25b06ccea30))
+- ChangeListener listener=0x25b07061d68 types= Geometry (QObject: QQuickAnchors(0x25b06ccead0))
+- ChangeListener listener=0x25b0579fd68 types= Geometry|SiblingOrder|Visibility|Destroyed (QObject: QQuickColumn(0x25b06c87bb0))
+qt.quick.layouts: QQuickGridLayoutBase::componentComplete() QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 0x0) Main_QMLTYPE_2(0x25b0389bc10)
+Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) (0x25b06d60b50) now has the following listeners:
+- ChangeListener listener=0x25b06ccc308 types= Geometry (QObject: QQuickAnchors(0x25b06df25f0))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle(0x25b0389bf90, parent=0x25b057c2b30, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle(0x25b0389c230, parent=0x25b057c2770, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle(0x25b06df1740, parent=0x25b06df1120, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickShaderEffect_QML_13(0x25b06df1580, parent=0x25b06df1120, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of HomePage_QMLTYPE_12(0x25b06df1120, id="homeRoot", parent=0x25b06df14a0, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickLoader(0x25b06df14a0, parent=0x25b06df0780, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of StackView_QMLTYPE_0(0x25b06df0780, id="stackView", parent=0x25b0389c690, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickItem(0x25b0389c690, parent=0x25b057c2770, geometry=0,0 0x0 ??)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 0x0)
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 1280x720)
+qt.quick.layouts: QQuickLayout::geometryChange QRectF(0,0 0x0) --> QRectF(0,0 1280x720)
+qt.quick.layouts: QQuickGridLayoutBase::invalidate() QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 1280x720) , invalidated: true
+qt.quick.layouts: calling QQuickLayout::invalidate();
+qt.quick.layouts: QQuickGridLayoutBase::invalidate() LEAVING QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 1280x720)
+qt.quick.layouts: ENTER QQuickLayout::ensureLayoutItemsUpdated() QQuickRowLayout(0x25b057c2b30) QFlags(0x2)
+qt.quick.layouts: QQuickGridLayoutBase::updateLayoutItems ENTERING QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 1280x720)
+qt.quick.layouts: QQuickGridLayoutBase::updateLayoutItems() LEAVING QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 1280x720)
+qt.quick.layouts: LEAVE QQuickLayout::ensureLayoutItemsUpdated() QQuickRowLayout(0x25b057c2b30)
+qt.quick.layouts: QQuickGridLayoutBase::rearrange 0 QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 1280x720)
+qt.quick.layouts: "" QQuickGridLayoutBase::rearrange() QSizeF(1280, 720)
+qt.quick.layouts: QQuickLayout::geometryChange QRectF(0,0 0x0) --> QRectF(0,0 1280x720)
+qt.quick.layouts: QQuickGridLayoutBase::rearrange 0 QQuickColumnLayout(0x25b057c2770, parent=0x25b057c2b30, geometry=0,0 1280x720)
+qt.quick.layouts: "" QQuickGridLayoutBase::rearrange() QSizeF(1280, 720)
+qt.quick.layouts: QQuickGridLayoutBase::componentComplete(). COMPLETED QQuickRowLayout(0x25b057c2b30, parent=0x25b0389bc10, geometry=0,0 1280x720) Main_QMLTYPE_2(0x25b0389bc10)
+Main_QMLTYPE_2(0x25b0389bc10, parent=0x0, geometry=0,0 1280x720) (0x25b06d60b50) now has the following listeners:
+- ChangeListener listener=0x25b06ccc308 types= Geometry (QObject: QQuickAnchors(0x25b06df25f0))
+- ChangeListener listener=0x25b06ccca28 types= Geometry (QObject: QQuickAnchors(0x25b06d2ed40))
+qt.quick.viewport: turned off subtree transformChanged notification after checking all children of QQuickRectangle(0x25b0389c5b0, parent=0x25b0389bc10, geometry=0,0 1280x720)
+qt.core.plugin.factoryloader: checking directory path "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/accessiblebridge" ...
+qt.core.plugin.factoryloader: checking directory path "C:/Users/onesh/AppData/Local/Programs/Python/Python312/accessiblebridge" ...
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::currentSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:78 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:66:21
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::currentSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:78 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:66:21
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::currentSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:78 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:66:21
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::currentSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:78 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:66:21
+qt.qml.binding.removal: Overwriting binding on QQuickItem_QML_9::currentSize at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:78 that was initially bound at file:///C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/app/ui/components/Dock.qml:66:21
+qt.core.library: "C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/plugins/platforms/qwindows.dll" unloaded library 
+"C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/Basic/qtquickcontrols2basicstyleplugin.dll" unloaded library 
+"C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Controls/qtquickcontrols2plugin.dll" unloaded library 
+"C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Layouts/qquicklayoutsplugin.dll" unloaded library 
+"C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/Templates/qtquicktemplates2plugin.dll" unloaded library 
+"C:/Users/onesh/OneDrive/Desktop/fitness_app_prime/.venv/Lib/site-packages/PySide6/qml/QtQuick/qtquick2plugin.dll" unloaded library 
